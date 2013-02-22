@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Accelerometer2ViewController : UIViewController
+@interface Accelerometer2ViewController : UIViewController <UIAccelerometerDelegate> {
+    UIImageView *image;
+    CGPoint delta;
+    
+}
+
+@property (nonatomic) IBOutlet UIImageView *image;
+@property CGPoint delta;
 
 @end

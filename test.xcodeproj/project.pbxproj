@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAD15C14168278B8008E8782 /* dice.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD15C13168278B8008E8782 /* dice.png */; };
 		AAD9EE3B165F93E500547BFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9EE3A165F93E500547BFB /* UIKit.framework */; };
 		AAD9EE3D165F93E500547BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9EE3C165F93E500547BFB /* Foundation.framework */; };
 		AAD9EE3F165F93E500547BFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9EE3E165F93E500547BFB /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAD15C13168278B8008E8782 /* dice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dice.png; path = ../../../../Downloads/dice.png; sourceTree = "<group>"; };
 		AAD9EE36165F93E500547BFB /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD9EE3A165F93E500547BFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AAD9EE3C165F93E500547BFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +98,7 @@
 		AAD9EE41165F93E600547BFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AAD15C13168278B8008E8782 /* dice.png */,
 				AAD9EE42165F93E600547BFB /* test-Info.plist */,
 				AAD9EE43165F93E600547BFB /* InfoPlist.strings */,
 				AAD9EE46165F93E600547BFB /* main.m */,
@@ -164,6 +167,7 @@
 				AAD9EE4F165F93E600547BFB /* Default@2x.png in Resources */,
 				AAD9EE51165F93E600547BFB /* Default-568h@2x.png in Resources */,
 				AAD9EE57165F93E600547BFB /* Accelerometer2ViewController.xib in Resources */,
+				AAD15C14168278B8008E8782 /* dice.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +261,14 @@
 		AAD9EE5B165F93E600547BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Selina Poon (46RJ6QJBJ9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Selina Poon (46RJ6QJBJ9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -268,10 +276,14 @@
 		AAD9EE5C165F93E600547BFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Selina Poon (46RJ6QJBJ9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Selina Poon (46RJ6QJBJ9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test/test-Prefix.pch";
 				INFOPLIST_FILE = "test/test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -295,6 +307,7 @@
 				AAD9EE5C165F93E600547BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
